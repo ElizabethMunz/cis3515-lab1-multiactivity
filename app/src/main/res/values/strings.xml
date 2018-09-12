@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">MultiActivity</string>
+    <string name="my_greeting">Hello world! This is an app made by Liz Munz</string>
+
 </resources>
