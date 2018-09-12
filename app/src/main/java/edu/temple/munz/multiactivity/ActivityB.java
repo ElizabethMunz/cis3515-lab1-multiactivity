@@ -15,6 +15,19 @@ public class ActivityB extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_b);
 
+        buttonB = findViewById(R.id.buttonB);
+
+        buttonB.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                //start Activity A
+                Intent startActivityIntent = new Intent(ActivityB.this, ActivityA.class);
+                startActivity(startActivityIntent);
+
+            }
+        });
+
+
     }
 
 }
